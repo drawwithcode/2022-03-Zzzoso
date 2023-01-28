@@ -1,8 +1,49 @@
-html, body {
+html,
+body {
+  background-color: black;
   margin: 0;
   padding: 0;
 }
 
 canvas {
+  display: flex;
+  border: 5px solid rgb(230, 230, 255);
+  padding: 20px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 120px;
+  padding: 60px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+p {
   display: block;
+  color: aliceblue;
+  font-size: 52px;
+  padding: 60px;
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 60px;
+  font-family: "Source Code Pro", monospace;
+  color: aliceblue;
+  padding: 100px;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
 }
